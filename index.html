@@ -5,22 +5,23 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/style.css">
   <title>JSウェザーアプリ</title>
 </head>
 <body>
-  <div>
-    <div>
+  <div class="wrapper">
+    <div class="container">
       <h1>JS World Weather</h1>
       <form action="">
         <input type="text" placeholder="都市名を文字列で入力">
         <button type="submit">Get Weather</button>
       </form>
       <div>
-        <div>Japan</div>
-        <div>Tokyo</div>
-        <div>28 <span>C</span></div>
-        <div>
-          <img src="" alt="icon">
+        <div class="results-country">Japan</div>
+        <div class="results-city">Tokyo</div>
+        <div class="results-temp">28<span>C</span></div>
+        <div class="results-condition">
+          <img src="/img/sunny-icon.png" alt="icon">
           <span>Sunny</span>
         </div>
       </div>

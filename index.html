@@ -12,11 +12,11 @@
   <div class="wrapper">
     <div class="container">
       <h1>JS World Weather</h1>
-      <form action="">
-        <input type="text" placeholder="都市名を文字列で入力">
+      <form id="weather-form" action="">
+        <input id="city-input" type="text" placeholder="都市名を文字列で入力">
         <button type="submit">Get Weather</button>
       </form>
-      <div>
+      <div id="weather-results">
         <div class="results-country">Japan</div>
         <div class="results-city">Tokyo</div>
         <div class="results-temp">28<span>C</span></div>
@@ -27,5 +27,6 @@
       </div>
     </div>
   </div>
+  <script src="/main.js"></script>
 </body>
 </html>
